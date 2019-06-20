@@ -1,0 +1,35 @@
+#parent{
+    background-color: blue;
+    margin:20px;
+    font-size:20px;
+    height: 500vh;
+    position: relative;
+    }
+    
+    #childone{
+    background-color: red;
+    margin:20px;
+    font-size:20px;
+    position: sticky;
+    top:0
+    
+    }
+    
+    #childtwo{
+    background-color: yellow;
+    margin:20px;
+    font-size:20px;
+    }
+    
+    #childthree{
+    background-color: green; 
+    margin:20px; 
+    font-size:20px;
+    /* animation:move;
+    animation-duration: 3s; */
+    }
+    
+    /* @keyframes move{
+        from{transform: translatex(0)}
+        to{transform: translatex(100px)}
+    } */
